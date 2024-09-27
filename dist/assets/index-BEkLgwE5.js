@@ -1073,7 +1073,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   @media (max-width: 768px) {
     flex-direction: column;
   }
-`,oj=()=>s.jsxs("div",{children:[s.jsx(we,{}),s.jsx(Se,{}),s.jsx(tj,{}),s.jsxs(nj,{children:[s.jsxs(rj,{children:["Torture and violence victims are encouraged to contact for online/physical psychosocial support ",s.jsx("br",{}),s.jsx("a",{href:"mailto:info@hdopk.org",children:"info@hdopk.org"})]}),s.jsx(Ox,{}),s.jsx(Sb,{}),s.jsx(Xx,{}),s.jsxs(ij,{children:[s.jsx(rw,{}),s.jsx(cw,{})]}),s.jsx(vw,{}),s.jsx(Fb,{}),s.jsx(Xb,{}),s.jsx(xb,{})]}),s.jsx(hx,{})]}),aj="#0d3b66",lj="#faa916",sj="#f4f4f4",cg="#555",uj=v.div`
+`,oj=()=>s.jsxs("div",{className:"App",children:[s.jsx(we,{}),s.jsx(Se,{}),s.jsx(tj,{}),s.jsxs(nj,{children:[s.jsxs(rj,{children:["Torture and violence victims are encouraged to contact for online/physical psychosocial support ",s.jsx("br",{}),s.jsx("a",{href:"mailto:info@hdopk.org",children:"info@hdopk.org"})]}),s.jsx(Ox,{}),s.jsx(Sb,{}),s.jsx(Xx,{}),s.jsxs(ij,{children:[s.jsx(rw,{}),s.jsx(cw,{})]}),s.jsx(vw,{}),s.jsx(Fb,{}),s.jsx(Xb,{}),s.jsx(xb,{})]}),s.jsx(hx,{})]}),aj="#0d3b66",lj="#faa916",sj="#f4f4f4",cg="#555",uj=v.div`
   padding: 2rem;
   background-color: ${sj};
   max-width: 1200px;
