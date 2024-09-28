@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaSearch, FaUserPlus } from 'react-icons/fa';
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
+import logo from './assets/logo.png';
 import { data } from './HomePage/data'; // Import your static data
 
 const JoinUsButton = styled(NavLink)`
@@ -143,7 +144,7 @@ const TopBar = () => {
   return (
     <TopBarContainer>
       <div>
-        <Logo src="/logo.png" alt="Logo" />
+      <Logo src={logo} alt="Logo" />
       </div>
       <SearchContainer>
         <SearchIcon />

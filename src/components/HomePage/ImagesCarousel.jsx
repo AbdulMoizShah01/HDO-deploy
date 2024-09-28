@@ -2,6 +2,15 @@
 import React from 'react';
 import Slider from 'react-slick';
 import styled from 'styled-components';
+import img1 from '../assets/imageCarousel/25.jpg';
+import img2 from '../assets/imageCarousel/1.jpeg';
+import img3 from '../assets/imageCarousel/2.jpeg';
+import img4 from '../assets/imageCarousel/3.jpeg';
+import img5 from '../assets/imageCarousel/11.jpeg';
+import img6 from '../assets/imageCarousel/5.jpeg';
+import img7 from '../assets/imageCarousel/13.jpeg';
+import img8 from '../assets/imageCarousel/10.jpeg';
+import img9 from '../assets/imageCarousel/8.jpeg';
 
 const CarouselContainer = styled.div`
   margin: 0 auto; /* Center horizontally */
@@ -65,31 +74,31 @@ const ImageCarousel = () => {
     <CarouselContainer>
       <Slider {...settings}>
       <div>
-          <Image src="/imageCarousel/25.jpg" alt="Description for Image 2" />
+          <Image src={img1} alt="Description for Image 2" />
         </div>
         <div>
-          <Image src="/imageCarousel/1.jpeg" alt="UOH" />
+          <Image src={img2} alt="UOH" />
         </div>
         <div>
-          <Image src="/imageCarousel/2.jpeg" alt="Description for Image 2" />
+          <Image src={img3} alt="Description for Image 2" />
         </div>
         <div>
-          <Image src="/imageCarousel/3.jpeg" alt="Description for Image 3" />
+          <Image src={img4} alt="Description for Image 3" />
         </div>
         <div>
-          <Image src="/imageCarousel/5.jpeg" alt="Description for Image 3" />
+          <Image src={img5} alt="Description for Image 3" />
         </div>
         <div>
-          <Image src="/imageCarousel/6.jpeg" alt="Description for Image 3" />
+          <Image src={img6} alt="Description for Image 3" />
         </div>
         <div>
-          <Image src="/imageCarousel/9.jpeg" alt="Description for Image 3" />
+          <Image src={img7} alt="Description for Image 3" />
         </div>
         <div>
-          <Image src="/imageCarousel/10.jpeg" alt="Description for Image 3" />
+          <Image src={img8} alt="Description for Image 3" />
         </div>
         <div>
-          <Image src="/imageCarousel/11.jpeg" alt="Description for Image 3" />
+          <Image src={img9} alt="Description for Image 3" />
         </div>
         {/* Add more images as needed */}
       </Slider>

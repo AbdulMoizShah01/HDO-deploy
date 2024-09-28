@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import TopBar from '../../TopBar';
 import Header from '../../Header';
+import img1 from '../../assets/team.png'
 
 // Container for the whole team section
 const TeamSection = styled.section`
@@ -188,7 +189,7 @@ const teamMembers = [
   },
 
   {
-    image: '/team.png',
+    image: {img1},
     name: 'Advocate Fozia Aziz',
     position: 'Director Legal Services',
     bio: 'She is expert at family and criminal laws and provides free legal assistance to needy women and girls victims of violence, torture and family litigations. She has been associated with HDO as an active member of its legal team for over a decade.',
@@ -200,7 +201,7 @@ const teamMembers = [
 
 
   {
-    image: '/team.png',
+    image: {img1},
     name: 'Tehseen Ullah',
     position: 'Director Finance',
     bio: 'Serving as Director Finance at Human Development Organization.',

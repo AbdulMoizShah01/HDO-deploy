@@ -2,6 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import TopBar from '../TopBar';
 import Header from '../Header';
+import img32 from '.././assets/imageCarousel/32.jpg';
+import img58 from '.././assets/imageCarousel/2.jpeg';
+import img17 from '.././assets/imageCarousel/17.jfif';
 
 // Define color variables
 const primaryColor = '#0d3b66'; // Dark Blue
@@ -80,7 +83,7 @@ const Services = () => {
           Under the international and domestic legal and human rights instruments every torture survivor has the inherent right to medical, psychological and social rehabilitation. Persons Deprived of Liberty (PDLs) after suffering cruel, inhuman and degrading treatment or punishment, complain of different physiological, psychological after affects together with multiple socio-economic complications. 
           For their reintegration in society as normal person, HDO’s clinicians provide medical care, psychotherapeutic support, socio-economic reintegration and legal assistance to both primary and secondary victims of torture. 
           </Paragraph>
-          <Image src='/imageCarousel/32.jpg' alt="Rehabilitation Services" />
+          <Image src={img32} alt="Rehabilitation Services" />
         </Section>
 
         <Section>
@@ -89,7 +92,7 @@ const Services = () => {
           Registered victims (both inside prisons and outside) are offered free of cost medical examination and treatment for the medical complications to start with. For chronic and serious medical complications, the victims are referred to other service providers/public sector hospitals for tertiary care.   
           Together with medication (if needed) the victims are offered physiotherapy and helped taking part in different physical relaxation exercises and sports after initial treatment that serves as therapy both for their physical as well as psychological rehabilitation. 
           </Paragraph>
-          <Image src='/imageCarousel/2.jpeg' alt="Medical Assistance" />
+          <Image src={img58} alt="Medical Assistance" />
         </Section>
 
         <Section>
@@ -99,7 +102,7 @@ const Services = () => {
           To help them regaining their lost positive strengths and human dignity, HDO’s psychologists and trained counselors provide them psycho-therapeutic support by applying different technique and therapies <strong>in line with Global Standards on Rehabilitation of Torture Victims (GSR) and globally time-tested mental health related approaches. Psychiatric and referral support for tertiary care is also offered. Online psycho social and legal counseling are also part of HDO’s rehab services.</strong>
 
           </Paragraph>
-          <Image src='/imageCarousel/17.jfif' alt="Psychotherapeutic Support" />
+          <Image src={img17} alt="Psychotherapeutic Support" />
         </Section>
 
         <Section>
