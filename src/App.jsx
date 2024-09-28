@@ -22,7 +22,7 @@ function App() {
   return (
     <Router basename="/HDO-deploy">
       <Routes>
-        <Route path="/HDO-deploy" element={<HomePage />} />
+        <Route path="/HDO-deploy/" element={<HomePage />} />
         <Route path="/join-us" element={<JoinUs/>} />
         <Route path="/Services" element={<Services/>} />
         <Route path="/Gallery" element={<GalleryPage/>} />
