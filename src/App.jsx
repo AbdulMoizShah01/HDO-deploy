@@ -20,7 +20,7 @@ import ResourcesPage from './components/Resources/ResourcesPage';
 import BrochureListPage from './components/Resources/BrochureListPage';
 function App() {
   return (
-    <Router>
+    <Router basename="/HDO-deploy">
       <Routes>
         <Route path="/HDO-deploy" element={<HomePage />} />
         <Route path="/join-us" element={<JoinUs/>} />
